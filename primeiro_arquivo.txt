@@ -1,0 +1,32 @@
+Módulo GIT - New Tab Academy
+
+Primeiros passos:
+Criar um repositório no Github, deixar como público.
+
+Comando para iniciar o git na pasta local:
+-- git init --
+
+Comando para criar arquivo:
+-- touch arquivo.txt --
+
+Comando para clonar repositório remoto para local
+-- git clone https://github.com/projeto --
+
+Comando para verificar o status dos arquivos
+-- git status --
+
+Comando para verificar se há atualizações remotas para puxar pro projeto local
+-- git pull --
+
+Comando para fazer merge de um outro branch ao seu branch
+-- git merge <branch> --
+
+Comando para adicionar arquivos modificados
+-- git add . -- ( para adicionar tudo)
+-- git add <arquivo> -- (para adicionar apenas um arquivo)
+
+Comando para commitar as mudanças
+-- git commit -m "Primeiro arquivo adicionado" --
+
+Comando para enviar a branch no repositório remoto
+-- git push origin master --  (master para a branch principal ou colocar o nome da branch que deseja enviar)
